@@ -1,0 +1,13 @@
+# Backend
+todo/target/
+todo/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
