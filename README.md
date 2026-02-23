@@ -26,14 +26,18 @@ Frontend:
 
 ### Backend
 cd todo
+
 ./mvnw spring-boot:run
 
 Runs on:
 http://localhost:8080
 
 ### Frontend
+
 cd frontend
+
 npm install
+
 npm start
 
 Runs on:
