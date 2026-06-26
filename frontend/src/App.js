@@ -15,7 +15,7 @@ import {
   ClipboardList
 } from "lucide-react";
 
-const API = "https://warm-donkeys-stand.loca.lt/api/todos";
+const API = "https://lucky-skunk-94.loca.lt/api/todos";
 axios.defaults.headers.common["Bypass-Tunnel-Reminder"] = "true";
 
 function App() {
