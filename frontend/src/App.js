@@ -15,7 +15,8 @@ import {
   ClipboardList
 } from "lucide-react";
 
-const API = "http://localhost:8080/api/todos";
+const API = "https://warm-donkeys-stand.loca.lt/api/todos";
+axios.defaults.headers.common["Bypass-Tunnel-Reminder"] = "true";
 
 function App() {
   const [todos, setTodos] = useState([]);
