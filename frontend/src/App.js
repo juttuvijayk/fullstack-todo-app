@@ -134,10 +134,6 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* Background visual glowing meshes */}
-      <div className="bg-glow bg-glow-1"></div>
-      <div className="bg-glow bg-glow-2"></div>
-      
       <div className="main-card">
         {/* Header */}
         <header className="app-header">
